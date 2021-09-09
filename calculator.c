@@ -3,7 +3,7 @@
 void main(){
 	int choice;
 	float num1,num2,result;
-	printf("SImple calculator\n1.to add\n2.to substract\n3.to multiply\n4.to divide\n");
+	printf("SImple calculator\n1.to add\n2.to subtract\n3.to multiply\n4.to divide\n");
 	printf("Enter your choice");
 	scanf("%d",&choice);
 	printf("Enter two numbers:");
@@ -21,8 +21,8 @@ void main(){
 		case  4:result=num1/num2;
 			printf("%f",&result);
 			break;
-			case default:printf("Invalid choice");
+		case default:printf("Invalid choice");
 			break;
 
-			}
 		}
+	}
